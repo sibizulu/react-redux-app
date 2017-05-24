@@ -19,7 +19,7 @@ const AddList = ({dispatch}) => {
           input = node
         }} />
         <button type='submit'>
-          Add List
+          Add Vegetables
         </button>
       </form>
     </div>

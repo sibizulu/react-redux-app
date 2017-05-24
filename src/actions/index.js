@@ -21,8 +21,6 @@ export const addListToFav = (text) => {
   }
 }
 
-
-
 export const removeFromFav = (id) => {
   return {
     type: 'REMOVE_LIST_FAV',
