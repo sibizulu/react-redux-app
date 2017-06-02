@@ -1,7 +1,7 @@
-export const addListItem = (text) => {
+export const addListItem = (post) => {
   return {
-    type: 'ADD_LIST',
-    text
+    type: 'ADD_POST',
+    post
   }
 }
 

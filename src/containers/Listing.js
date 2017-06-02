@@ -1,12 +1,11 @@
 import { connect } from 'react-redux'
-import List from '../components/List'
+import ListData from '../components/ListData'
 import { addListToFav } from '../actions'
 
 const mapStateToProps = (state) => {
   return {
-    listing: state.listing,
-    title: 'Vegetables',
-    button: 'Add to FAV'
+    listing: state.posting,
+    title: 'Post'
   }
 }
 
@@ -18,6 +17,6 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const Listing = connect(mapStateToProps, mapDispatchToProps)(List)
+const Listing = connect(mapStateToProps, mapDispatchToProps)(ListData)
 
 export default Listing
